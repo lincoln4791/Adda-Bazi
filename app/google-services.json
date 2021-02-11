@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "979653652547",
+    "firebase_url": "https://addabazi-5f6a7.firebaseio.com",
+    "project_id": "addabazi-5f6a7",
+    "storage_bucket": "addabazi-5f6a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979653652547:android:9d05ec761292b2c2f6e4f6",
+        "android_client_info": {
+          "package_name": "com.example.addabazi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979653652547-14hbegcb5oodcg7ca1qmgs9f8lt78car.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-5rwem3b95IXB0fJIRFheYvTtbT-gE_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979653652547-14hbegcb5oodcg7ca1qmgs9f8lt78car.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

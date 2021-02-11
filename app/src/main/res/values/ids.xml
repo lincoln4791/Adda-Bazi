@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="TAG_MESSAGE" type="id"/>
+    <item name="TAG_MESSAGE_TYPE" type="id"/>
+    <item name="TAG_MESSAGE_ID" type="id"/>
+
+
+    <item name="TAG_PHOTO_FILE_NAME" type="id"/>
+    <item name="TAG_PHOTO_FOLDER_NAME" type="id"/>
+    <item name="TAG_PHOTO_URI" type="id"/>
+    <item name="TAG_PHOTO_URI_PATH" type="id"/>
+    <item name="TAG_PHOTO_TIME_STAMP" type="id"/>
+
+
+</resources>

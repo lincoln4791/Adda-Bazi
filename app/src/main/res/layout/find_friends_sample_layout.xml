@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_profilePicture_findFriendSampleLayout_ID"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/default_profile_picture"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_userName_findFriendsSampleLayout_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="userName" />
+
+            <Button
+                android:id="@+id/btn_sendFriendRequest_findFriendsSampleLayout_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addAsFriend" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_cancelFriendRequest_findFriendsSampleLayout_ID"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:backgroundTint="@color/red"
+                android:padding="8dp"
+                android:text="@string/cancelFriendRequest"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:cornerRadius="@android:dimen/dialog_min_width_major"
+                app:iconTint="#FFFFFF"
+                app:strokeColor="#FFEB3B" />
+
+            <ProgressBar
+                android:id="@+id/progressBar_findFriendsSampleLayoutID"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/purple_200"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
